@@ -1,38 +1,39 @@
 <!DOCTYPE html>
+
 <html>
-
-<head>
-    <meta charset=UTF-8>
-    <meta name=viewport content="width=device-width,initial-scale=1">
+    <head>
+        <meta charset=UTF-8>
+        <meta name=viewport content="width=device-width,initial-scale=0.1">
+        <link href=https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css rel=stylesheet async>
+        <link rel=stylesheet href=1.css>
+        <link rel=stylesheet href=2.css>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400&display=swap" rel=stylesheet async>
     <title>Gallery</title>
-    <link href=https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css rel=stylesheet async>
-    <link rel=stylesheet href="gallery.css">
-    <link rel=stylesheet href="2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400&display=swap" rel=stylesheet async>
-</head>
-
-<body>
-    <div class=preloader>
-        <div class=loader>
-            <div class=loader__bar></div>
-            <div class=loader__bar></div>
-            <div class=loader__bar></div>
-            <div class=loader__bar></div>
-            <div class=loader__bar></div>
-            <div class=loader__ball></div>
+    </head>
+    <body>
+        <div class=preloader>
+            <div class=loader>
+                <div class=loader__bar></div>
+                <div class=loader__bar></div>
+                <div class=loader__bar></div>
+                <div class=loader__bar></div>
+                <div class=loader__bar></div>
+                <div class=loader__ball></div>
+            </div>
         </div>
-    </div>
-    <script>window.addEventListener("load", (() => { document.querySelector(".preloader").classList.add("loader--hidden"), document.querySelector(".preloader").addEventListener("transitionend", (() => { document.body.removeChild(document.querySelector(".preloader")) })) }))</script>
-    <div id=background-video>
-        <video autoplay muted loop>
-            <source src="" type=video/mp4>
-        </video>
-    </div>
-    <a href="https://data-tharavaad.github.io/Class_Web/">
-    <img src=https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/L.webp alt=Logo
-        class=center-top-logo>
-    </a>
-    <div class=menu>
+        <script>window.addEventListener("load", (() => { document.querySelector(".preloader").classList.add("loader--hidden"), document.querySelector(".preloader").addEventListener("transitionend", (() => { document.body.removeChild(document.querySelector(".preloader")) })) }))</script>
+        <div id=background-video>
+            <video autoplay muted loop>
+                <source src="" type=video/mp4>
+            </video>
+        </div>
+
+        <a href="https://data-tharavaad.github.io/Class_Web/">
+            <img src=https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/L.webp alt=Logo
+                class=center-top-logo>
+            </a>
+
+        <div class=menu>
         <button class=menu-button>⋮</button>
         <ul class=menu-list>
             <li><a href=https://data-tharavaad.github.io/Class_Web>Home</a></li>
@@ -42,28 +43,62 @@
             <li><a href=#Contact>Contact</a></li>
         </ul>
     </div>
-    <div class=swiper-slide>
-        <div class=container-general>
-            <div class="gallery-wrap wrap-effect-3">
-                <div class=item></div>
-                <div class=item></div>
-                <div class=item></div>
-                <div class=item></div>
-                <div class=item></div>
+        <section class="preview__container">
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/1.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/2.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/3.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/4.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/0.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/4.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/4.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/4.webp">
+                </div>
+            </article>
+            <article class="preview mobile" tabindex="0">
+                <div class="img-wrapper">
+                    <img src="https://raw.githubusercontent.com/someonexunknown/pics/refs/heads/main/4.webp">
+                </div>
+            </article>
+        </section>
+        <div class=overlay></div>
+        <div class=footer-text>
+            <div class=footer-text-copyright>
+                <p class=cpy>©DATA THARAVAAD 2024</p>
+                <p class=email><i class="bx bx-envelope"></i>datatharaad24@gmail.com</p>
             </div>
         </div>
-    </div>
-
-
-    <div class=overlay></div>
-    <div class=footer-text>
-        <div class=footer-text-copyright>
-            <p class=cpy>©DATA THARAVAAD 2024</p>
-            <p class=email><i class="bx bx-envelope"></i>datatharaad24@gmail.com</p>
-        </div>
-    </div>
-    <script src=main.js defer></script>
-    <script>window.addEventListener("load", (() => { document.querySelector(".welcome-text").classList.add("loaded"), document.querySelector(".instagram-container").classList.add("loaded"), document.querySelector(".tutors-section").classList.add("loaded") }))</script>
-</body>
-
+        <script src=main.js defer></script>
+        <script>window.addEventListener("load", (() => { document.querySelector(".welcome-text").classList.add("loaded"), document.querySelector(".instagram-container").classList.add("loaded"), document.querySelector(".tutors-section").classList.add("loaded") }))</script>
+    
+    </body>
 </html>
