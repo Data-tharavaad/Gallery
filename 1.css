@@ -44,7 +44,7 @@ body {
 .preview__container {
     position: relative;
     top: 0.8vh;
-    left: 5vh;
+    left: 3vh;
 	display: flex;
     flex-direction: row;
 	flex-wrap:wrap;
