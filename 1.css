@@ -42,8 +42,9 @@ body {
     justify-content: center;
 }
 .preview__container {
-    border:3px solid #fff;
+    /* border:3px solid #fff; */
     position: relative;
+    left: 5vw;
     top: 0.8vh;
 	display: flex;
     flex-direction: row;
