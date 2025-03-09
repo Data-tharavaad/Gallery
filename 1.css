@@ -16,11 +16,12 @@
 
 body {
     overflow-x: hidden;
-	background: #232323;
-	background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-
+    margin: 0;
+    font-family: 'Silkscreen', Arial, sans-serif;
+    font-size: 23px;
+    background-color: #232323;
+    background-image: url('my-durves-image.webp');
+    background-position: center;
 }
 
 .preview__container img{
@@ -42,9 +43,9 @@ body {
     justify-content: center;
 }
 .preview__container {
-
+    z-index: 10;
     position: relative;
-    top: 7.5vh;
+    top: 33vh;
     left: 3vh;
 	display: flex;
     flex-direction: row;
@@ -147,7 +148,7 @@ body {
 		max-width: var(--mobile--w);
         animation: appear linear;
         animation-timeline: view();
-        animation-range: entry 0% cover 50%;
+        animation-range: entry 0% cover 45%;
 	}
 
 	&:nth-of-type(2) {
@@ -229,7 +230,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 20vh;
+    top: 400vh;
     left: 0;
     right: 0;
     width: 100%;
@@ -382,7 +383,7 @@ body {
 .photo {
     padding-block: 0px;
     position: relative;
-    top: 1vh;
+    top: 25vh;
     max-height: 100px;
     overflow: hidden;
     user-select: none;
