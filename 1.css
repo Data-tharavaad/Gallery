@@ -7,8 +7,8 @@
 	--gold: 84.16% 0.1169 71.19;
 	--mint: 84.12% 0.1334 165.28;
 
-	--mobile--w: 450px; /* Increase width */
-	--mobile--h:650px; /* Increase height */
+	--mobile--w: 250px; /* Increase width */
+	--mobile--h:350px; /* Increase height */
 
 	--outline-w: 9px;
 	--preview-bg: #fff;
@@ -95,7 +95,7 @@ body {
 	transform: translateZ(0) perspective(1px); */
 	/* 	transform-origin: center center; */
 
-	scale: 0.85;
+	scale: 0.8;
 	rotate: var(--rotation, -4deg);
 	/* 	will-change: box-shadow, filter, rotate, scale, z-index; */
 
