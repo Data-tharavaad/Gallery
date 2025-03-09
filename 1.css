@@ -7,8 +7,8 @@
 	--gold: 84.16% 0.1169 71.19;
 	--mint: 84.12% 0.1334 165.28;
 
-	--mobile--w: 500px; /* Increase width */
-	--mobile--h:800px; /* Increase height */
+	--mobile--w: 450px; /* Increase width */
+	--mobile--h:650px; /* Increase height */
 
 	--outline-w: 9px;
 	--preview-bg: #fff;
@@ -42,9 +42,9 @@ body {
     justify-content: center;
 }
 .preview__container {
-position: relative;
-    left: 4vw;
+    position: relative;
     top: 0.8vh;
+    left: 5vh;
 	display: flex;
     flex-direction: row;
 	flex-wrap:wrap;
